@@ -32,7 +32,7 @@ async def _human_time_duration(seconds):
     
    
 
-@Client.on_message(command("start") & filters.private & ~filters.edited)
+@Client.on_message(command("vCstart") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/f323bcaec71ba138fb6df.png",
@@ -53,7 +53,7 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
                         "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/SUPERIOR_BOTS/160"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/ITZ-ZAID/Zaid-Vc-Player"
+                        "Owner", url="https://t.me/DushmanXRONIN/160"
                     )
                 ],
                 [
